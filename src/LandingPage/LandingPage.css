@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.image {
+    width: 50%;
+}
+
+.landing-text {
+    font-size: 70px;
+    color: rgb(7, 170, 108);
+}
+
+button {
+    font-size: 30px;
+    color: rgb(7, 170, 108);
+    border-color: rgb(7, 170, 108)
+}
+
+.test {
+    height: 640px;
+}
