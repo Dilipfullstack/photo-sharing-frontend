@@ -38,7 +38,7 @@ const PostView = () => {
         <div className='container'>
             <div className='header'>
                 <h2 className='heading'><img className='logo' src='/images/logo.png' alt='logoInstaClone' /></h2>
-                <a className='camera' href='http://localhost:3001/createpost'><img  src="\images\camera.png" alt='logo'></img></a>
+                <a className='camera' href={`${link.apiLink}/createpost`}><img  src="\images\camera.png" alt='logo'></img></a>
             </div>
             <hr />
             {!fail && data.length && 

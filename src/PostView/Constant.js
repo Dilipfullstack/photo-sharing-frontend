@@ -1,5 +1,5 @@
 const link = {
-    "apiLink" : "http://localhost:3001"
+    "apiLink" : "https://impage-upload-server.herokuapp.com/"
 }
 
 export default link;
