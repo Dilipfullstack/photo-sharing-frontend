@@ -67,7 +67,7 @@ const PostView = () => {
                     </div>
                 ))}
             {fail &&
-                <h3>Please try after sometime</h3>}
+                <h3>Please wait while we load data</h3>}
         </div>
 
     )

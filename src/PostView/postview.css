@@ -29,7 +29,8 @@
 }
 
 .logo {
-    width: 10%;
+    width: 12%;
+    margin-left: 20px;
 }
 
 img {
@@ -68,11 +69,11 @@ img {
 }
 
 .camera {
-    width: 2%;
+    width: 5%;
     height: 30px;
     margin-bottom: 0px;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-top: 19px;
 }
 
 .header {
