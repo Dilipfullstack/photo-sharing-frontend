@@ -14,7 +14,7 @@ const PostView = () => {
             try {
                 const response = await fetch(`${link.apiLink}/home`);
                 console.log(response);
-                if (response.status == 404 || response.status == 500) {
+                if (response.status === 404 || response.status === 500) {
                     setFail(true);
                 }
                 else {
@@ -32,15 +32,7 @@ const PostView = () => {
             }
         };
         fetchData();
-    }, []);
-
-    function convertToBase64String(binary) {
-        return btoa(String.fromCharCode(...new Uint8Array(binary.PostImage.data.data)))
-    }
-
-     function changeToString(value) {
-        (value.postImage).toString();
-     }   
+    }, []);   
 
     return (
         <div className='container'>
@@ -62,8 +54,8 @@ const PostView = () => {
                             <img src={`http://localhost:3001/uploads/${value.postImage.data}`} alt="uploaded pic" width='100%' height='275px'/>
                         </div>
                         <div className='engagement'>
-                            <p><img className='icon' src='/images/like.png' />
-                            <img className='icon' src='/images/share.png' />
+                            <p><img className='icon' src='/images/like.png' alt=''/>
+                            <img className='icon' src='/images/share.png' alt=''/>
                             <span className='date'>{value.date}</span></p>
                         </div>
                         <div className='likecount'>
