@@ -51,7 +51,7 @@ const PostView = () => {
                         </div>
                         <div className='imgholder'>
                             {/* <p>{changeToString(value)}</p> */}
-                            <img src={`http://localhost:3001/uploads/${value.postImage.data}`} alt="uploaded pic" width='100%' height='275px'/>
+                            <img src={`${link.apiLink}/uploads/${value.postImage.data}`} alt="uploaded pic" width='100%' height='275px'/>
                         </div>
                         <div className='engagement'>
                             <p><img className='icon' src='/images/like.png' alt=''/>
